@@ -1,0 +1,189 @@
+.why-wonde {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+.why-wonde h2 {
+    color: var(--color5);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.why-wonde .sections {
+    display: flex;
+    flex-direction: column;
+}
+
+.balance .work-life {
+    width: 80%;
+    height: auto;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+.balance h3 {
+    font-size: 2rem;
+    color: var(--color5);
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.balance p {
+    color: var(--color5);
+   font-size: 1.5rem;
+   text-align: center;
+}
+
+.give-back .we-give {
+    width: 60%;
+    height: auto;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+
+.give-back h3 {
+    font-size: 2rem;
+    color: var(--color5);
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.give-back p {
+    color: var(--color5);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.value .employee {
+    width: 60%;
+    height: auto;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+
+.value h3 {
+    font-size: 2rem;
+    color: var(--color5);
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.value p {
+    color: var(--color5);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.protect .protect-you {
+    width: 60%;
+    height: auto;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+
+.protect h3 {
+    font-size: 2rem;
+    color: var(--color5);
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.protect p {
+    color: var(--color5);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.culture .conservation {
+    width: 60%;
+    height: auto;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+
+.culture h3 {
+    font-size: 2rem;
+    color: var(--color5);
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.culture p {
+    color: var(--color5);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.team .we-are-a-team {
+    width: 60%;
+    height: auto;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+
+.team h3 {
+    font-size: 2rem;
+    color: var(--color5);
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.team p {
+    color: var(--color5);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+    .why-wonde h2 {
+        font-size: 5rem;
+        margin-top: 3rem;
+    }
+
+    .why-wonde .uno {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .uno .balance {
+        width: 40%;
+    }
+
+    .uno .give-back {
+        width: 40%;
+    }
+
+    .why-wonde .dos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dos .value {
+        width: 40%;
+    }
+
+    .dos .protect {
+        width: 40%;
+    }
+
+    .why-wonde .tres {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tres .culture {
+        width: 40%;
+    }
+
+    .tres .team {
+        width: 40%;
+    }
+}

@@ -1,0 +1,176 @@
+.final {
+    width: 100%;
+    height: auto;
+}
+
+.final h1 {
+    width: 100%;
+    font-size: 2.8rem;
+    color: var(--color1);
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.final .lugares {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    color: var(--color1);
+}
+
+.final .uno {
+    display: flex;
+    flex-direction: row;
+}
+
+.final .dos {
+    display: flex;
+    flex-direction: row;
+}
+
+.final .tres {
+    display: flex;
+    flex-direction: row;
+}
+
+.final img {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.final .locations p {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    color: var(--color1);
+}
+
+.final .columns {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.final .columns h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    color: var(--color1); 
+}
+
+.final .columna_2 {
+    margin-left: 3rem;
+}
+
+.final .columns p {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    color: var(--color1);
+} 
+
+.final .otros h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    color: var(--color1); 
+}
+
+.final .otros p {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    color: var(--color1) 
+}
+
+.final .pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+}
+
+.final .final_wonde {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-left: 12rem;
+    color: var(--color1);
+}
+@media only screen and (min-width: 1366px) {
+
+    .final {
+        height: 85rem;
+    }
+
+    .final .box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .final .title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .final h1 {
+        width: 100%;
+        font-size: 4rem;
+        color: var(--color1);
+        margin-left: 12rem;
+    }
+
+    .final .school {
+        margin-top: 12rem;
+    }
+
+    .final .lugares {
+        margin-left: 2rem;
+    }
+
+    .final .locations {
+        margin-left: 12rem;
+    }
+
+    .final .locations img {
+         width: 2rem;
+         height: 1.5rem;
+    }
+
+    .final .columns {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 8rem;
+    }
+
+    .final .columna_2 {
+        margin-left: 10rem;
+    } 
+
+    .final .otros {
+        width: 100%;
+    }
+
+    .final .otros h3 {
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-top: 12rem;
+        margin-left: 10rem;
+        color: var(--color1); 
+    }
+
+    .final .otros p {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        margin-left: 10rem;
+        color: var(--color1) 
+    }
+
+
+
+}
